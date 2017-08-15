@@ -22,9 +22,9 @@
 
 
     .img-light {
-      -webkit-filter: brightness(200%);
+      -webkit-filter: brightness(100%);
       -webkit-filter: blur(3px);
-      filter: brightness(120%) blur(3px);
+      filter: brightness(120%);
     }
 
     .img-dark {
@@ -34,11 +34,11 @@
     }
 
     .font-light {
-
+      color: white;
     }
 
     .font-dark {
-
+      color: black;
     }
 
     /* Remove the jumbotron's default bottom margin */
@@ -59,19 +59,6 @@
       text-align: center;
     }
 
-    h2 {
-      position: absolute;
-      top: 2px;
-      left: 0;
-      width: 100%;
-
-      z-index: 100;
-      position: absolute;
-      color: white;
-      text-align: center;
-      margin-top: auto;
-    }
-
     .image {
       position: relative;
       width: 100%;
@@ -82,6 +69,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      text-align: center;
 
     }
 
@@ -124,23 +112,45 @@
 </nav>
 
 <div class="container">
+
   <div class="row">
-
-<!--
     <div class="col-sm-6">
-          <img src="../img/Main_menu/Sprawy_do_zalatwienia.jpg" class="img-responsive img-dark image-box-img" alt="Image">
-          <h2 class="image-box-text">Sprawy do załatwienia</h2>
+      <div class="image">
+          <img src="../img/Main_menu/Sprawy_do_zalatwienia.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h1 class="font-light">SPRAWY DO ZAŁATWIENIA</h1></div>
+      </div>
     </div>
-  -->
-  <div class="col-sm-6">
-    <div class="image">
-        <img src="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg" class="img-responsive img-dark" alt="Image">
-        <div class="vcenter">abcd</div>
+
+    <div class="col-sm-3">
+      <div class="image">
+          <img src="../img/Main_menu/Aktualnosci.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h1 class="font-light">AKTUALNOŚCI</h1></div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="image">
+          <img src="../img/Main_menu/Kalendarz_wydarzen.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h1 class="font-light">KALENDARZ WYDARZEŃ</h1></div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="image">
+          <img src="../img/Main_menu/Galeria.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h1 class="font-light">GALERIA</h1></div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="image">
+          <img src="../img/Main_menu/O_miescie.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h1 class="font-light">O MIEŚCIE</h1></div>
+      </div>
     </div>
   </div>
 
-  </div>
-</div><br>
+
+
+</div> <!-- container -->
+<br>
 
 
 <!--
