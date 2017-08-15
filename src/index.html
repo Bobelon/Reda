@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+      background-color: black;
+    }
+
+    .navbar-menu {
+      font-size: 1.3em;
+    }
+
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+      padding: 0px;
+    }
+
+    .img-light {
+      -webkit-filter: brightness(200%);
+      -webkit-filter: blur(3px);
+      filter: brightness(120%) blur(3px);
+    }
+
+    .img-dark {
+      -webkit-filter: brightness(50%);
+      -webkit-filter: blur(3px);
+      filter: brightness(50%) blur(2px);
+    }
+
+    .font-light {
+
+    }
+
+    .font-dark {
+
+    }
+
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: 0;
+      background-image: url(../img/Reda_background.jpg);
+      background-size: 100%;
+    }
+
+    .logo-img {
+      margin-left: 10%;
+    }
+
+    .image-box {
+      position: relative;
+      width: 100%;
+    }
+
+    .image-box-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .image-box-text {
+      z-index: 100;
+      position: absolute;
+      color: white;
+      text-align: center;
+    }
+
+    .h2 {
+      position: absolute;
+      top: 200px;
+      left: 0;
+      width: 100%;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Background -->
+<div class="jumbotron">
+  <a href="index.html">
+    <div class="logo-img">
+      <img id="logo-img" src="../img/Reda_logo.png" />
+    </div>
+  </a>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> <strong class="navbar-menu">BIP</strong></a></li>
+        <li><a href="#"><strong class="navbar-menu">Kontakt</strong></a></li>
+        <li>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="search" class="form-control" id="search" placeholder="Szukaj">
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicons-search"></span>S</button>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div class="panel panel-primary">
+        <div class="image-box">
+          <img src="../img/Main_menu/Sprawy_do_zalatwienia.jpg" class="img-responsive img-dark image-box-img" alt="Image">
+          <h2 class="image-box-text">Sprawy do załatwienia</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">BLACK </div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">nyga</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
