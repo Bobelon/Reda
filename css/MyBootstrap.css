@@ -51,6 +51,7 @@
   padding-right:0px;
   padding-left:0px;
   color: white;
+  font-size: 300%;
 }
 
 .col-sm-1:hover,
@@ -67,6 +68,8 @@
 .col-sm-12:hover {
 	-webkit-filter: brightness(50%);
 	filter: brightness(150%);
+	font-size: 200%;
+	color: black;
 }
 
 .col-xs-1,

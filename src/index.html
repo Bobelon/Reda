@@ -31,6 +31,10 @@
     .font-light {		
 		font-weight: normal;
     }
+	
+	.font-light:hover {
+		text-aligh: left;
+	}
 
     /* Remove the jumbotron's default bottom margin */
      .jumbotron {
@@ -43,13 +47,7 @@
       margin-left: 10%;
     }
 
-    .image-text {
-      z-index: 100;
-      position: absolute;
-      color: white;
-      text-align: center;
-    }
-
+	
     .image {
       position: relative;
       width: 100%;
@@ -105,10 +103,10 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-sm-6" id="dlaMieszkancow" onmouseover="dlaMieszkancowOn()" onmouseout="dlaMieszkancowOut()">
+    <div class="col-sm-6" onmouseover="dlaMieszkancowOn()" onmouseout="dlaMieszkancowOut()">
       <div class="image">
           <img src="../img/Main_menu/Sprawy_do_zalatwienia.jpg" class="img-responsive img-dark" alt="Image">
-          <div class="vcenter"><h1 class="font-light">DLA MIESZKAŃCÓW</h1></div>
+          <div class="vcenter"><span class="font-light" id="dlaMieszkancow">DLA MIESZKAŃCÓW</span></div>
       </div>
     </div>
 
