@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../css/MyBootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../js/scripts.js"></script>
   <style>
     /* Remove the navbar's default rounded borders and increase the bottom margin */
     .navbar {
@@ -20,26 +21,15 @@
       font-size: 1.3em;
     }
 
-
-    .img-light {
-      -webkit-filter: brightness(100%);
-      -webkit-filter: blur(3px);
-      filter: brightness(120%);
-    }
-
     .img-dark {
       -webkit-filter: brightness(50%);
       -webkit-filter: blur(3px);
       filter: brightness(50%);
-	  width: 100%;
+	  width: 100%;	
     }
 
-    .font-light {
-      color: white;
-    }
-
-    .font-dark {
-      color: black;
+    .font-light {		
+		font-weight: normal;
     }
 
     /* Remove the jumbotron's default bottom margin */
@@ -115,35 +105,35 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6" id="dlaMieszkancow" onmouseover="dlaMieszkancowOn()" onmouseout="dlaMieszkancowOut()">
       <div class="image">
           <img src="../img/Main_menu/Sprawy_do_zalatwienia.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h1 class="font-light">DLA MIESZKAŃCÓW</h1></div>
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-3" id="aktualnosci" onmouseover="aktualnosciOn()" onmouseout="aktualnosciOut()">
       <div class="image">
           <img src="../img/Main_menu/Aktualnosci.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">AKTUALNOŚCI</h2></div>
       </div>	  
     </div>
 	
-    <div class="col-sm-3">
+    <div class="col-sm-3" id="kalendarzWydarzen" onmouseover="kalendarzWydarzenOn()" onmouseout="kalendarzWydarzenOut()">
       <div class="image">
           <img src="../img/Main_menu/Kalendarz_wydarzen.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">KALENDARZ WYDARZEŃ</h2></div>
       </div>	  
     </div>
 	
-    <div class="col-sm-3">
+    <div class="col-sm-3" id="galeria" onmouseover="galeriaOn()" onmouseout="galeriaOut()">
       <div class="image">
           <img src="../img/Main_menu/Galeria.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">GALERIA</h2></div>
       </div>
     </div>
 	
-    <div class="col-sm-3">
+    <div class="col-sm-3" id="oMiescie" onmouseover="oMiescieOn()" onmouseout="oMiescieOut()">
       <div class="image">
           <img src="../img/Main_menu/O_miescie.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">O MIEŚCIE</h2></div>
@@ -153,24 +143,53 @@
   </div>
   
   <div class="row">
-	<div class="col-sm-3">
+	<div class="col-sm-3" id="oswiata" onmouseover="oswiataOn()" onmouseout="oswiataOut()">
       <div class="image">
           <img src="../img/Main_menu/Oswiata.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">OŚWIATA</h2></div>
       </div>
     </div>
-	<div class="col-sm-3">
+	
+	<div class="col-sm-3" id="inwestycje" onmouseover="inwestycjeOn()" onmouseout="inwestycjeOut()">
       <div class="image">
           <img src="../img/Main_menu/Inwestycje.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">INWESTYCJE</h2></div>
       </div>
     </div>
-	<div class="col-sm-3">
+	
+	<div class="col-sm-3" id="dlaRolnikow" onmouseover="dlaRolnikowOn()" onmouseout="dlaRolnikowOut()">
       <div class="image">
           <img src="../img/Main_menu/Dla_rolnikow.jpg" class="img-responsive img-dark" alt="Image">
           <div class="vcenter"><h2 class="font-light">DLA ROLNIKÓW</h2></div>
       </div>
     </div>
+	
+	<div class="col-sm-3" id="media" onmouseover="mediaOn()" onmouseout="mediaOut()">
+      <div class="image">
+          <img src="../img/Main_menu/Media.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h2 class="font-light">MEDIA</h2></div>
+      </div>
+    </div>
+	
+  </div>
+  
+  
+  <div class="row">  
+  
+	<div class="col-sm-3" id="wspolpracaMiedzygminna" onmouseover="wspolpracaMiedzygminnaOn()" onmouseout="wspolpracaMiedzygminnaOut()">
+      <div class="image">
+          <img src="../img/Main_menu/Wspolpraca_miedzygminna.png" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h2 class="font-light">WSPÓŁPRACA MIĘDZYGMINNA</h2></div>
+      </div>
+    </div>
+	
+	<div class="col-sm-9" id="budzetObywatelski" onmouseover="budzetObywatelskOn()" onmouseout="budzetObywatelskiOut()">
+      <div class="image">
+          <img src="../img/Main_menu/Budzet_obywatelski.jpg" class="img-responsive img-dark" alt="Image">
+          <div class="vcenter"><h2 class="font-light">BUDŻET OBYWATELSKI</h2></div>
+      </div>
+    </div>
+	
   </div>
 
 
