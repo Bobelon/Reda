@@ -51,7 +51,17 @@
   padding-right:0px;
   padding-left:0px;
   color: white;
+}
+
+.col-sm-9 {
+	font-size: 170%;
+}
+.col-sm-6 {	
   font-size: 300%;
+}
+
+.col-sm-3 {
+	font-size: 170%;
 }
 
 .col-sm-1:hover,
@@ -66,10 +76,18 @@
 .col-sm-10:hover,
 .col-sm-11:hover,
 .col-sm-12:hover {
-	-webkit-filter: brightness(50%);
-	filter: brightness(150%);
+	color: white;
+}
+
+.col-sm-9:hover {
+	font-size: 130%;
+}
+.col-sm-6:hover {
 	font-size: 200%;
-	color: black;
+}
+
+.col-sm-3:hover {
+	font-size: 130%;
 }
 
 .col-xs-1,
