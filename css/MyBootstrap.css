@@ -50,6 +50,44 @@
   min-height:1px;
   padding-right:0px;
   padding-left:0px;
+  color: white;
+}
+
+.col-sm-9 {
+	font-size: 170%;
+}
+.col-sm-6 {	
+  font-size: 300%;
+}
+
+.col-sm-3 {
+	font-size: 170%;
+}
+
+.col-sm-1:hover,
+.col-sm-2:hover,
+.col-sm-3:hover,
+.col-sm-4:hover,
+.col-sm-5:hover,
+.col-sm-6:hover,
+.col-sm-7:hover,
+.col-sm-8:hover,
+.col-sm-9:hover,
+.col-sm-10:hover,
+.col-sm-11:hover,
+.col-sm-12:hover {
+	color: white;
+}
+
+.col-sm-9:hover {
+	font-size: 130%;
+}
+.col-sm-6:hover {
+	font-size: 200%;
+}
+
+.col-sm-3:hover {
+	font-size: 130%;
 }
 
 .col-xs-1,
